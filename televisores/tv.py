@@ -1,5 +1,3 @@
-from televisores.marca import Marca
-from televisores.control import Control
 class TV:
 
     numTV = 0
@@ -74,7 +72,7 @@ class TV:
     def setVolumen(self,volumen):
         if (0<= volumen <= 7) and (self._estado == True):
             self._volumen = volumen
-            
+
     def getVolumen(self):
         return self._volumen
     
